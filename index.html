@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storiaverse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+<div class="navbar">    
+    <div class="navlinks">
+        <div class="logo">
+            <img src="/images/img-1.jpg">
+        </div>
+
+        <div class="links">
+            <ul>
+                <li><a href="#">Writers</a></li>
+                <li><a href="#">Animators</a></li>
+                <li><a href="#">Spotlights</a></li>
+                <li><a href="#">Stories</a></li>
+            </ul>
+        </div>
+        <button id="contactBtn">Contact</button>
+    </div>
+</div>   
+<!--Toggle Button-->
+<div id="contactBox" class="contact-box">
+    <h3>Contact Details</h3>
+    <p>sai1234@gmail.com</p>
+    <p>+91 123 456 789</p>
+</div>
+
+<div class="content">
+    <button class="btn1">Download Storiaverse</button>
+    <h1>ANIMATED SHORTS<br>CREATED BY CREATIVES</h1>
+    <p>Discover a world of animated short series, brought to life by the creativity<br>of writers and animators from around the globe.</p>
+    <div class="buttons">
+        <button class="btn2"  onclick="openAppStore()"><i class="fa-brands fa-apple"></i>App Store</button>
+        <button class="btn3" onclick="openPlayStore()"><i class="fa-brands fa-google-play"></i>Google Play</button>
+    </div>
+</div>
+    
+
+<script>
+    function openPlayStore(){
+        window.open("https://play.google.com/store/games?hl=en_IN")
+    }
+    function openAppStore(){
+        window.open("https://www.apple.com/in/app-store/")
+    }
+
+    const contactBtn = document.getElementById("contactBtn");
+    const contactBox = document.getElementById("contactBox");
+
+    contactBtn.addEventListener("click", ()=>{
+        if(contactBox.style.display == 'block'){
+           contactBox.style.display = 'none';
+        }else{
+            contactBox.style.display = 'block';
+        }
+    });
+</script>
+</body>
+</html>

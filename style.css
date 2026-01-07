@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background:#050530df;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    margin-top: 20px !important;
+    border-radius: 60px;
+    background: #aeaaaa31;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    
+}
+.logo img{
+    width: 220px;
+    object-fit: cover;
+}
+.links{
+   
+}
+.links ul{
+    display: inline-flex;
+    list-style: none;
+    gap: 145px;
+}
+.links ul li{
+   
+}
+.links ul li a{
+    text-decoration: none;
+    color: #bfb7b7;
+}
+.navlinks button{
+    background: skyblue;
+    color: #000;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px 8px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 25px;
+}
+.btn1{
+    width: auto;
+    height: 22x;
+    padding: 5px 7px;
+    border-radius: 20px;
+    border: 1px solid #8b8787;
+    outline: 0;
+    background: transparent;
+    color: #8b8787;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Toggole Button*/
+.contact-box {
+    display: none; /* hidden by default */
+    width: 300px;
+    background: #f0f0f0;
+    color: #000;
+    border-radius: 15px;
+    padding: 20px;
+    position: absolute; /* you can adjust position */
+    top: 90px; /* below navbar */
+    right: 50px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.content p{
+    color: #8b8787;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.content .btn2{ 
+    background: skyblue;
+    color: #000;
+    width: 135px;
+    height: 45px;
+    border-radius: 30px;
+    padding: 5px 8px;
+    outline: 0;
+    border: 1px solid #c5c0c0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.content .btn3{ 
+    background: skyblue;
+    color: #000;
+    width: 135px;
+    height: 45px;
+    border-radius: 30px;
+    padding: 5px 8px;
+    outline: 0;
+    border: 1px solid #c5c0c0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
